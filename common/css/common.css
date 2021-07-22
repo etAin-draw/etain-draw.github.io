@@ -28,8 +28,16 @@ a:hover{
 	transition: 0.4s;
 }
 
+/*-- div#wrap --*/
+div#wrap{
+	width: 100%;
+	overflow: hidden;
+}
+
 /*-- header#top --*/
 header#top{
+	width: 100%;
+	height: 600px;
 	display: block;
 	background: rgb(205, 255, 247);
 	position: relative;
@@ -47,5 +55,12 @@ header#top h1{
 }
 header#top img{
 	width: 90%;
+	margin: 0 auto;
+}
+
+/*-- main --*/
+main{
+	width: 100%;
+	max-width: 1480px;
 	margin: 0 auto;
 }
