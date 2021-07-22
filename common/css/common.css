@@ -5,9 +5,8 @@
 
 body,html{
 	width: 100%;
+	display: block;
 	overflow: hidden;
-
-	vertical-align: middle;
 
 	font-family: 'Noto Sans JP', sans-serif;
 	font-size: 17px;
@@ -31,6 +30,7 @@ a:hover{
 /*-- div#wrap --*/
 div#wrap{
 	width: 100%;
+	min-height: 100vh;
 	overflow: hidden;
 }
 
@@ -62,5 +62,16 @@ header#top img{
 main{
 	width: 100%;
 	max-width: 1480px;
+	display: block;
+
 	margin: 0 auto;
+}
+
+/*-- footer --*/
+footer{
+	width: 100%;
+	height: 500px;
+	display: block;
+
+	background: rgba(131, 117, 211, 1.00);
 }
