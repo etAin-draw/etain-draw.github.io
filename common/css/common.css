@@ -1,0 +1,29 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body,html{
+	width: 100%;
+  overflow: hidden;
+  
+	vertical-align: middle;
+
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 17px;
+	color: rgb(51, 51, 51);
+
+	background: rgba(255,255,255,1.00);
+}
+p{
+	line-height: 150%;
+}
+a{
+	color: rgb(21, 163, 204);
+	text-decoration: none;
+	transition: 0.4s;
+}
+a:hover{
+	color:rgb(255, 77, 77);
+	transition: 0.4s;
+}
